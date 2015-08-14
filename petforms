@@ -1,0 +1,52 @@
+<html>
+
+
+<div align="center">
+<h1>Pet Finder </h1>
+<h3>Find your ideal baby pet</h3>
+<body>
+<br>	
+<br>
+<form>
+<p><b>Full Name:</b></p><br>
+<input type="text" name="firstname">
+
+<p><b>Gender:</b></p>
+<input type="radio" name="sex" value="male" checked>Male
+<br>
+<input type="radio" name="sex" value="female">Female
+<br>
+<br>
+
+
+<p><b>Choose Animal Attribute:</b></p><br>
+<form action="">
+<input type="checkbox" name="attribute" value="">Furry<br>
+<input type="checkbox" name="attribute" value="Car">Slow<br>
+<input type="checkbox" name="attribute" value="Car">Big<br>
+<input type="checkbox" name="attribute" value="Car">Small<br>
+<input type="checkbox" name="attribute" value="Car">Noisy<br>
+</form>
+
+<p><b>Gender:</b></p>
+<input type="radio" name="sex" value="male" checked>Male
+<br>
+<input type="radio" name="sex" value="female">Female
+<br>
+</form>
+<p><b>Favorite Pet Classification:</b></p>
+<select>
+  <option value="Mammal">Mammal</option>
+  <option value="Reptile">Reptile</option>
+  <option value="Fish">Fish</option>
+  <option value="Exotic">Exotic</option>
+  <option value="Bird">Bird</option>
+</select>
+
+<br><br>
+<input type="submit" value="Join">
+<br>
+
+</div>
+</body>
+</html>
